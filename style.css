@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.heder{
+    height:4rem ;
+    background-color: rgb(0, 89, 255);
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+}
+.images{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin-top: 3rem;
+    /* cursor:pointer; */
+}
+.image p{
+    padding-left: 23px;
+}
+.image{
+    cursor:pointer;
+}
+.img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 3rem;
+    border: 0.5rem solid rgba(0, 0, 0,0);
+}
+.img:hover{
+    border: 0.5rem solid rgb(0, 0, 0);
+    /* opacity: 0.5; */
+}
+.score{
+    margin-top: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+.scr h2{
+    font-size: 3rem;
+}
+.scr p{
+    font-size: 1.2rem;
+}
+.result {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+
+}
